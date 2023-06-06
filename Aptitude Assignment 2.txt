@@ -1,0 +1,131 @@
+1)Initial milk-water ratio: 2:3
+Final milk-water ratio: 4:11
+Quantity of milk in the mixture: 40 liters
+Based on the initial milk-water ratio of 2:3, we can calculate the initial quantity of water in the mixture:
+
+Initial quantity of water = (3/2) * Quantity of milk
+= (3/2) * 40 liters
+= 60 liters
+
+Similarly, based on the final milk-water ratio of 4:11, we can calculate the final quantity of water in the mixture:
+
+Final quantity of water = (11/4) * Quantity of milk
+= (11/4) * 40 liters
+= 110 liters
+
+To find the quantity of water to be added, we subtract the initial quantity of water from the final quantity of water:
+
+Quantity of water to be added = Final quantity of water - Initial quantity of water
+= 110 liters - 60 liters
+= 50 liters
+------------------------------------------------------------------------------------------------------------------------------------
+2)To find the points where the linear equation 2x + 3y = 0 intersects the x and y-axes, we can set either x or y to zero and solve for the other variable.
+
+Intersect with the x-axis (y = 0):
+Substituting y = 0 into the equation 2x + 3y = 0:
+2x + 3(0) = 0
+2x = 0
+x = 0
+So the point of intersection with the x-axis is (0, 0).
+
+Intersect with the y-axis (x = 0):
+Substituting x = 0 into the equation 2x + 3y = 0:
+2(0) + 3y = 0
+3y = 0
+y = 0
+Thus, the point of intersection with the y-axis is also (0, 0).
+------------------------------------------------------------------------------------------------------------------------------------------
+3)The difference of squares formula states that a^2 - b^2 = (a + b)(a - b).
+
+In this case, we have a^2 - b^2 = 19, which can be written as (a + b)(a - b) = 19.
+
+We need to find two factors of 19 that can be expressed as a sum and a difference of two positive integers. Since 19 is a prime number, the only possible factorization is 1 * 19.
+
+We can set up two equations based on the factorization:
+
+a + b = 19
+a - b = 1
+
+Solving these two equations simultaneously will give us the values of a and b.
+
+Adding the two equations, we get:
+
+2a = 20
+a = 10
+
+Substituting the value of a into one of the equations, we have:
+
+10 - b = 1
+b = 9
+------------------------------------------------------------------------------------------------------------------------------------------
+4)Given:
+a + b + c = 5
+a^2 + b^2 + c^2 = 10
+
+We can use these equations to find the value of a^3 + b^3 + c^3 + 3abc.
+
+First, let's square the equation a + b + c = 5:
+
+(a + b + c)^2 = 5^2
+a^2 + b^2 + c^2 + 2ab + 2ac + 2bc = 25
+
+Substitute the value of a^2 + b^2 + c^2 from the given information:
+
+10 + 2ab + 2ac + 2bc = 25
+2ab + 2ac + 2bc = 15
+ab + ac + bc = 7.5
+
+Now, let's cube the equation a + b + c = 5:
+
+(a + b + c)^3 = 5^3
+a^3 + b^3 + c^3 + 3a^2b + 3ab^2 + 3a^2c + 3ac^2 + 3b^2c + 3bc^2 + 6abc = 125
+
+Substitute the values of a^2 + b^2 + c^2 and ab + ac + bc:
+
+10 + 3a^2b + 3ab^2 + 3a^2c + 3ac^2 + 3b^2c + 3bc^2 + 6abc = 125
+
+Since we want to find a^3 + b^3 + c^3 + 3abc, let's isolate those terms:
+
+a^3 + b^3 + c^3 + 3abc = 125 - (10 + 3a^2b + 3ab^2 + 3a^2c + 3ac^2 + 3b^2c + 3bc^2 + 6abc)
+
+Now, substitute the value of ab + ac + bc:
+
+a^3 + b^3 + c^3 + 3abc = 125 - (10 + 3(7.5) + 3a^2c + 3ac^2 + 3b^2c + 3bc^2 + 6abc)
+
+We need to simplify further using the information given.
+
+Since a + b + c = 5, we can rewrite this equation as:
+
+a^3 + b^3 + c^3 + 3abc = 125 - (10 + 22.5 + 3a^2c + 3ac^2 + 3b^2c + 3bc^2 + 6abc)
+
+Now, let's substitute the value of a^2 + b^2 + c^2:
+
+a^3 + b^3 + c^3 + 3abc = 125 - (10 + 22.5 + 3(10 - b^2 - c^2)c + 3a(10 - a^2 - c^2) + 3b^2c + 3bc^2 + 6abc)
+
+Finally, we substitute the value of a^2 + b^2 + c^2 and simplify the equation:
+
+a^3 + b^3 + c^3 + 3abc = 125 - (10 + 22.5 + 30c
+-------------------------------------------------------------------------------------------------------------------------------------
+5)First two-digit number: 10a + (a+1) = 11a + 1
+Second two-digit number: 10(a+1) + a = 11a + 10
+
+According to the problem, the sum of these two numbers is a perfect square:
+
+(11a + 1) + (11a + 10) = 22a + 11
+
+We need to find consecutive positive integers a for which 22a + 11 is a perfect square.
+
+By checking different values of a, we find that a = 2 satisfies this condition:
+
+22a + 11 = 22(2) + 11 = 44 + 11 = 55 = 5^2
+
+So, a = 2 is the value that satisfies the condition, and the two-digit numbers are:
+
+First two-digit number: 11a + 1 = 11(2) + 1 = 22 + 1 = 23
+Second two-digit number: 11a + 10 = 11(2) + 10 = 22 + 10 = 32
+
+The square root of their sum, which is a perfect square, can be calculated as:
+
+√(23 + 32) = √55 = 7.416198487...
+
+Therefore, the two-digit numbers are 23 and 32, and the square root of their sum is approximately 7.416.
