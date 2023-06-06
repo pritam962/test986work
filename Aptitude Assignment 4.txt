@@ -1,0 +1,103 @@
+1)We are given the following information:
+
+The leak in the bottom of the tank can empty the full tank in 6 hours.
+The inlet pipe fills water at the rate of 4 liters per minute.
+When the tank is full, it takes 8 hours for it to empty due to the leak.
+First, let's determine the rate at which the leak empties the tank. If the tank is emptied in 6 hours, the leak can empty 1/6th of the tank's capacity per hour.
+
+Next, let's calculate the rate at which the inlet pipe fills water. The inlet pipe fills water at the rate of 4 liters per minute, which is equal to 4 * 60 = 240 liters per hour.
+
+Now, let's calculate the combined rate of the leak and the inlet pipe when the tank is full. Since the inlet pipe fills water faster than the leak can empty it, the net rate of water entering the tank can be determined by subtracting the leak's rate from the inlet pipe's rate.
+
+Net rate of water entering the tank = Inlet pipe's rate - Leak's rate
+= 240 - (1/6)C (liters per hour)
+
+We are given that when the tank is full, it takes 8 hours to empty due to the leak. Therefore, in 1 hour, 1/8th of the tank's capacity is emptied.
+
+The net rate of water entering the tank in 1 hour is equal to the rate at which the tank is emptied due to the leak.
+
+Net rate of water entering the tank = (1/8)C (liters per hour)
+
+Setting these two expressions equal to each other, we can solve for C, the capacity of the tank:
+
+240 - (1/6)C = (1/8)C
+
+Multiplying both sides of the equation by 24 (to eliminate the fractions):
+
+5760 - 4C = 3C
+
+Combining like terms:
+
+7C = 5760
+
+Dividing both sides of the equation by 7:
+
+C = 5760 / 7 ≈ 822.857
+
+Therefore, the capacity of the tank is approximately 822.857 liters.
+------------------------------------------------------------------------------------------------------------------------------------------
+2)Total number of inhabitants: 1000
+Percentage of males: 60%
+Number of males = 60% of 1000 = 0.60 * 1000 = 600
+Percentage of literate individuals: 20%
+Number of literate individuals = 20% of 1000 = 0.20 * 1000 = 200
+Percentage of all inhabitants who are literate: 25%
+Number of literate inhabitants = 25% of 1000 = 0.25 * 1000 = 250
+To find the number of literate females, we need to subtract the number of literate males from the total number of literate individuals:
+
+Number of literate females = Number of literate individuals - Number of literate males
+= 250 - (Total number of inhabitants - Number of males)
+= 250 - (1000 - 600)
+= 250 - 400
+= -150
+-------------------------------------------------------------------------------------------------------------------------------------
+3)Percentage of candidates who passed in English: 80%
+Percentage of candidates who passed in Mathematics: 85%
+Percentage of candidates who passed in both subjects: 73%
+To find the percentage of candidates who failed in both subjects, we need to subtract the percentage of candidates who passed in both subjects from 100%.
+
+Percentage of candidates who failed in both subjects = 100% - Percentage of candidates who passed in both subjects
+
+Percentage of candidates who failed in both subjects = 100% - 73%
+= 27%
+-----------------------------------------------------------------------------------------------------------------------------------------
+4)Monthly income = 13,500
+Monthly expenditure = 9,000
+
+Savings for the current year = Income - Expenditure
+= 13,500 - 9,000
+= 4,500
+
+Next year's income increased by 14%:
+Next year's income = 13,500 + 14% of 13,500
+= 13,500 + (0.14 * 13,500)
+= 13,500 + 1,890
+= 15,390
+
+Next year's expenditure increased by 7%:
+Next year's expenditure = 9,000 + 7% of 9,000
+= 9,000 + (0.07 * 9,000)
+= 9,000 + 630
+= 9,630
+
+Savings for the next year = Next year's income - Next year's expenditure
+= 15,390 - 9,630
+= 5,760
+
+Percentage increase in savings = [(Savings for next year - Savings for current year) / Savings for current year] * 100
+
+= [(5,760 - 4,500) / 4,500] * 100
+= (1,260 / 4,500) * 100
+= 28%
+-------------------------------------------------------------------------------------------------------------------------------------
+5)49 pumps can empty the tank in 10 days, working 10 hours each day.
+Now, 70 pumps are used for 7 hours each day.
+Let's first calculate the total pump-hours required to empty the tank using 49 pumps for 10 hours each day:
+Total pump-hours = 49 pumps * 10 hours/day * 10 days = 4,900 pump-hours.
+
+Now, let's calculate the pump-hours available when using 70 pumps for 7 hours each day:
+Available pump-hours = 70 pumps * 7 hours/day = 490 pump-hours.
+
+To find the number of days required to empty the tank using 70 pumps for 7 hours each day, we can divide the total pump-hours required by the available pump-hours per day:
+
+Number of days = Total pump-hours / Available pump-hours = 4,900 pump-hours / 490 pump-hours = 10 days.
