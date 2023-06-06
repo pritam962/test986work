@@ -1,0 +1,63 @@
+1)For the line x = 2, the value of x is always 2, while y can take any value. Therefore, the line is a vertical line passing through the point (2, y) for any y.
+
+For the line y = 4, the value of y is always 4, while x can take any value. Therefore, the line is a horizontal line passing through the point (x, 4) for any x.
+
+The two lines intersect at the point (2, 4) since both lines have x = 2 and y = 4 in common.
+---------------------------------------------------------------------------------------------------------------------------------
+2)2X + 3Y = 9
+7X + 9Y = -6
+
+We can use the concept of determinants to analyze the situation.
+
+The system will have a unique solution if the determinants of the coefficients of X and Y are non-zero, and the determinants of the coefficients of X and Y with the constants on the right-hand side are also non-zero.
+
+Let's calculate the determinants:
+
+D = (2 * 9) - (3 * 0) = 18
+Dx = (9 * 9) - (3 * (-6)) = 117
+Dy = (2 * (-6)) - (7 * 9) = -72
+
+Since D is non-zero, the system is consistent. If both Dx and Dy are non-zero, the system will have a unique solution.
+
+Since both Dx and Dy are non-zero (117 and -72 respectively), the system has a unique solution.
+
+Therefore, the system of equations:
+
+2X + 3Y = 9
+7X + 9Y = -6
+------------------------------------------------------------------------------------------------------------------------------------
+3)To determine the number of solutions or "keys" for this equation, we need more information or additional equations. A single equation in two variables can have an infinite number of solutions or no solution at all.
+
+If we have another equation in x and y, we can solve the system of equations to determine the number of solutions. Without another equation, we cannot definitively determine the number of solutions for the given equation.
+
+Therefore, based on the given information, we cannot determine the number of solutions or "keys" for the equation 7x + 9y = -5.
+-----------------------------------------------------------------------------------------------------------------------------------------
+4)If a, b, and c are all equal to zero (a = b = c = 0), the equation ax^2 + bx + c = 0 becomes:
+
+0x^2 + 0x + 0 = 0
+
+This simplifies to:
+
+0 = 0
+
+The equation 0 = 0 is an example of an identity. It is true for all values of x. In this case, the equation represents an infinitely large set of solutions.
+--------------------------------------------------------------------------------------------------------------------------------------
+5)Given that B's income is Rs 3000, we can set up the following equation:
+
+3x = 3000
+
+Solving for x:
+
+x = 3000/3
+x = 1000
+
+Therefore, A's income is 2x = 2 * 1000 = Rs 2000.
+
+Now, let's find the ratio of their expenditures. We are given their savings, so we can subtract the savings from their respective incomes to find their expenditures.
+
+Expenditure of A = Income of A - Savings of A = Rs 2000 - Rs 500 = Rs 1500
+Expenditure of B = Income of B - Savings of B = Rs 3000 - Rs 700 = Rs 2300
+
+The ratio of their expenditures is 1500:2300, which simplifies to 15:23.
+
+Therefore, the ratio of their expenditures is 15:23.
