@@ -1,0 +1,103 @@
+1)Execution Approach:
+
+Compiler: A compiler translates the entire source code into machine code or a lower-level language before execution. It generates an executable file that can be run independently of the compiler.
+Interpreter: An interpreter reads and executes the source code line by line, translating and executing it simultaneously without generating an executable file.
+Speed:
+
+Compiler: The compilation process allows compilers to apply extensive optimizations, resulting in faster execution of the compiled program compared to interpretation. The compiled code is typically more efficient.
+Interpreter: Interpreted programs are generally slower than compiled programs due to the overhead involved in interpreting the code line by line. Interpreters do not perform extensive optimizations in advance.
+Error Detection:
+
+Compiler: Compilers perform a thorough analysis of the source code during the compilation process, detecting syntax errors, type errors, and some semantic errors. Compilation fails if errors are encountered, requiring the programmer to fix them before obtaining an executable.
+Interpreter: Interpreters detect errors on-the-fly as they interpret the code line by line. The interpretation process halts when an error is encountered, and the interpreter provides an error message indicating the issue.
+--------------------------------------------------------------------------------------------------------------------------------------------
+2JDK (Java Development Kit):
+
+The JDK is a software development kit that provides tools, libraries, and documentation necessary for Java application development.
+It includes a complete development environment for writing, debugging, and compiling Java code. This includes the Java compiler (javac), debugger, and other development tools.
+The JDK also includes the JRE, which means that when you install the JDK, you also get the JRE along with it.
+Developers use the JDK to write, compile, and package Java applications or applets.
+JRE (Java Runtime Environment):
+
+The JRE is a runtime environment that allows you to run Java applications or applets on your machine.
+It includes the JVM (explained next) and a set of core libraries and files required for executing Java programs.
+The JRE does not contain the development tools (such as the compiler) found in the JDK. It is meant for end-users who only need to run Java applications.
+If you want to run a Java program on your computer, you need to have the JRE installed.
+JVM (Java Virtual Machine):
+
+The JVM is an integral part of both the JDK and the JRE. It is a virtual machine that executes Java bytecode.
+When you compile a Java source code file, it gets converted into bytecode, which is a platform-independent representation of the code.
+The JVM is responsible for interpreting this bytecode or, in some cases, just-in-time (JIT) compiling it into machine code for the underlying hardware.
+The JVM provides an abstraction layer between the Java program and the operating system, allowing Java applications to run on any platform that has a compatible JVM implementation.
+It handles tasks such as memory management, garbage collection, and security.
+------------------------------------------------------------------------------------------------------------------------------------------
+3)Heap:
+
+The heap is the runtime data area where objects are allocated. It is the primary memory area used by Java applications.
+All objects, including arrays and instances of classes, are created on the heap.
+The heap is shared among all threads in a Java program and is managed by the JVM's garbage collector. The garbage collector automatically reclaims memory from objects that are no longer referenced.
+Method Area (or Permanent Generation in older JVM versions):
+
+The method area stores the class structures, method bytecode, field data, and other metadata.
+It is a shared memory area used by all threads and is created when the JVM starts up.
+The method area also contains constant pool information, symbolic references to classes and methods, and static variables.
+Java Stack:
+
+Each thread in a Java program has its own stack memory area.
+The Java stack stores local variables, method parameters, and intermediate results of method calls.
+It also maintains the execution context of each method, including the program counter and reference to the current method's class.
+Stack memory is organized as a stack of frames, with each frame representing a method call.
+The stack memory is automatically allocated and deallocated as method calls are made and completed.
+PC Register (Program Counter Register):
+
+The PC register contains the address of the currently executing instruction.
+Each thread has its own PC register, and it is updated as the thread executes instructions.
+Native Method Stack:
+
+The native method stack is used for executing native (non-Java) methods or code.
+It is separate from the Java stack and stores data and information related to the execution of native methods.
+Direct Memory (not part of the JVM specification):
+
+Direct memory is memory allocated outside of the JVM heap, using native memory management.
+It is used for certain operations that require direct access to memory, such as I/O operations or using the NIO (New I/O) package.
+------------------------------------------------------------------------------------------------------------------------------------------
+4)JIT (Just-In-Time) compilation is a technique used by some programming language implementations, including Java, to improve the performance of executing code. In the context of Java, the JIT compiler is a component of the Java Virtual Machine (JVM) that dynamically compiles bytecode into machine code during runtime. 
+---------------------------------------------------------------------------------------------------------------------------------------
+5)public
+private
+protected
+default
+---------------------------------------------------------------------------------------------------------------------------------
+6)n Java, a compiler is a software tool that translates Java source code written by developers into bytecode, which is a platform-independent representation of the code. The compiled bytecode can be executed by the Java Virtual Machine (JVM) on any platform that has a compatible JVM implementation. 
+------------------------------------------------------------------------------------------------------------------------------------
+7)local variables
+ static varaibles
+ instance variables
+----------------------------------------------------------------------------------------------------------------------------------------
+8)boolean: 
+byte: 
+short: 
+int: 
+long: .
+float:
+double: 
+char: 
+---------------------------------------------------------------------------------------------------------------------------------------
+9)In Java, identifiers are names used to identify variables, methods, classes, packages, and other elements within a program. They provide a way to refer to these program entities during coding and are essential for readability and maintainability of the code.
+--------------------------------------------------------------------------------------------------------------------------------------
+10)The architecture of the Java Virtual Machine (JVM) defines its structure and components that enable the execution of Java programs.
+
+Class Loader Subsystem:
+
+Runtime Data Areas:
+
+Method Area: 
+Heap:
+Java Stack: 
+PC Register: 
+Native Method Stack:
+Execution Engine:
+Garbage Collector:
+Native Method Interface (JNI):
+
+----------------------------------------------------------------------------------------------------------------------------------------
