@@ -1,0 +1,87 @@
+1)In Java, the conditional operators are used to perform logical operations and make decisions based on conditions. The conditional operators are:
+
+Relational Operators:
+
+Relational operators compare two values and return a boolean result (true or false).
+Examples of relational operators: == (equal to), != (not equal to), > (greater than), < (less than), >= (greater than or equal to), <= (less than or equal to).
+Logical Operators:
+
+Logical operators combine multiple conditions and return a boolean result.
+Examples of logical operators: && (logical AND), || (logical OR), ! (logical NOT).
+Conditional (Ternary) Operator:
+
+The conditional (or ternary) operator allows for compact conditional expressions.
+Syntax: condition ? expression1 : expression2
+If the condition is true, the expression1 is evaluated; otherwise, expression2 is evaluated.
+-----------------------------------------------------------------------------------------------------------------------------------
+2) Types of Operators Based on the Number of Operands:
+In Java, operators can be classified based on the number of operands they work with. The types of operators are:
+
+Unary Operators:
+
+Unary operators work with a single operand.
+Examples: ++ (increment), -- (decrement), ! (logical NOT).
+Binary Operators:
+
+Binary operators work with two operands.
+Examples: + (addition), - (subtraction), * (multiplication), / (division), % (modulo).
+Ternary Operator:
+
+The ternary operator is the only operator in Java that works with three operands.
+Syntax: condition ? expression1 : expression2
+It evaluates a condition and returns one of two expressions based on the condition.
+--------------------------------------------------------------------------------------------------------------------
+3)Use of Switch Case in Java Programming:
+The switch case statement in Java allows you to perform different actions based on different values of a variable or an expression. It provides a concise way to write multiple if-else if statements. 
+------------------------------------------------------------------------------------------------------------------------
+4)Conditional statements allow you to control the flow of execution based on certain conditions. In Java, the conditional statements are:
+if statement:
+The if statement allows executing a block of code if a condition is true.
+if-else statement:
+The if-else statement allows executing different blocks of code based on the condition.
+if-else if-else statement:
+The if-else if-else statement allows testing multiple conditions and executing different blocks of code accordingly.
+-----------------------------------------------------------------------------------------------------------------------------------------
+6)Comparing Two Strings in Java:
+In Java, you cannot directly compare two strings using the == operator because it compares the memory references, not the actual content. Instead, you should use the equals() method or compareTo() method for string comparison.
+---------------------------------------------------------------------------------------------------------------------------------
+5)if (condition) {
+    // code to execute when the condition is true
+} else {
+    // code to execute when the condition is false
+}
+----------------------------------------------------------------------------------------------------------------------
+7)Mutable String in Java:
+In Java, strings are immutable, which means their values cannot be changed once created. However, you can use the StringBuilder or StringBuffer classes to create mutable strings. These classes provide methods to modify the contents of a string without creating a new object.
+------------------------------------------------------------------------------------------------------------------------------
+8)import java.util.Arrays;
+
+public class SortStringAlphabetically {
+    public static void main(String[] args) {
+        String str = "openai";
+        char[] charArray = str.toCharArray();
+
+        Arrays.sort(charArray);
+
+        String sortedString = new String(charArray);
+        System.out.println("Sorted String: " + sortedString);
+    }
+}
+----------------------------------------------------------------------------------------------------------------------
+9)public class CheckLetterInWord {
+    public static void main(String[] args) {
+        String word = "Umbrella";
+        boolean isPresent = false;
+
+        for (int i = 0; i < word.length(); i++) {
+            if (word.charAt(i) == 'e') {
+                isPresent = true;
+                break;
+            }
+        }
+
+        if (isPresent) {
+            System.out.println("Letter 'e' is
+----------------------------------------------------------------------------------------------------------------------------------
+10 )in the heap area of data blocks it is located
+-------------------------------------------------------------------------
